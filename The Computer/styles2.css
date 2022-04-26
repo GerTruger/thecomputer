@@ -1,0 +1,444 @@
+html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+body {
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {    
+        padding: 10px 50px 75px 50px ;
+        background-image: url("the computer/d880x320.jpg");
+        margin: 0;
+}
+header nav {
+        margin: 0 0 0 50px;
+}
+a {
+        text-decoration: none;
+        color: white;
+}
+a:hover {
+        color:red;
+}
+nav li {  
+        display: inline; 
+        float: right;  
+        margin: 3px 3px 3px 3px;
+        list-style-type: none;
+        padding: 10px;
+        background-color: steelblue;
+        border-radius: 5px 5px 0px 0px; 
+        text-align: center;
+}
+nav li:hover {
+        background-color: skyblue; 
+}
+ #divh1 {
+        padding: auto;
+        margin: 20px 0px 20px 0;
+        background-color: powderblue;
+        border: 3px solid black;
+        text-align: center;
+}
+main {
+        margin: 0;
+}
+.pool {
+        display: flex;
+        background-color: powderblue;
+        height: 300px;
+        border: 5px  0 dashed black;   
+        flex-direction:row;
+        align-content: center;
+        justify-content: space-evenly;
+}
+.box4 {
+        width: 25vw;
+        height: 100%;
+}
+.box1 {
+        width: 20vw;
+        height: 100%;
+}
+.box2 {
+        text-align: center;
+        font-size: 1,5rem;
+        width: 20vw;
+}       
+.box3 {        
+        width: 20vw;
+        height: auto;
+}
+#micro {
+        width: 50%;
+        height: 200px;
+        border: 3px solid black;
+        border-radius: 15px;
+        margin: 3px 25% 0 25%;
+}
+p {   
+        width: 90%;
+        margin: 10px 5% 10px 5%;
+        font-size: 1.5rem;
+}
+#tarea {
+        display: flex;
+        background-color: powderblue;
+        padding: 20px;
+        height:400px ;
+        justify-content:space-evenly;      
+}
+#tarea li {
+        float: left;
+        width: 23%;
+        margin: 1%;
+        list-style-type: none;
+}
+.area1 {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+}
+.area2 {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+}
+.area3 {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+}
+.area4 {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+}
+#areja {
+        margin: 0px 25% 0px 25%;
+}
+h2 {
+        text-align: center;          
+}
+footer li {  
+        display: inline-flex; 
+        margin: 3px 3px 3px 3px;
+        list-style-type: none;
+        padding: 10px;
+        background-color: steelblue;
+        border-radius: 5px 5px 0px 0px; 
+        text-align: center;
+        color: white;
+}
+footer {
+        background-color: powderblue; 
+        padding:50px 100px ; 
+        
+}
+footer li:hover{
+        background-color: skyblue;
+}
+#up {
+        margin: 3px 30%;
+        padding: 10px ;
+        background-color: steelblue;
+        border-radius: 5px 5px 0px 0px; 
+        text-align: center;
+        color: white;
+}
+#up:hover {
+        color: skyblue;
+}
+#up a:hover {
+        color: red;
+}
+h6 {
+        display:inline-block;
+}
+footer li:hover  {
+        color: red;
+}
+footer ul {
+        margin: 0 10%;
+} 
+#voetje {
+        padding: 5px 50px;
+
+}
+.big {
+        display: flex;       
+        margin-top: 20px;
+        justify-content: space-around;
+        color: black;
+        border-radius: 10px;              
+}
+.big :hover {
+        background-color: steelblue;
+        color: white;
+        border-radius: 2%;
+}
+.big1 {
+        display: flex;
+        background-color: powderblue;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        justify-content: space-around;
+        color: black;
+        border-radius: 25px; 
+        margin: 20px 25% 5px 25%;  
+}
+.big1:hover {
+        background-color: steelblue;
+        color: white;
+}
+.M {
+        align-self: center;       
+        padding: 10px; 
+        border-radius: 25px; 
+        background-color: powderblue; 
+                   
+}
+.F {
+        align-self: center;
+        padding: 10px; 
+        border-radius: 15px; 
+        background-color: powderblue;      
+}
+.G {
+        align-self: center;
+        padding: 10px;
+        border-radius: 15px;    
+        background-color: powderblue;      
+}
+.A {
+        align-self: center;     
+        padding: 10px; 
+        border-radius: 15px;
+        background-color: powderblue;       
+}
+.B {
+        align-self: center;                
+        padding: 10px;
+        border-radius: 15px; 
+        background-color: powderblue;
+}
+figure {
+        margin-left: 25%;
+        padding: 2,5%;
+        border-radius: 15px;     
+}
+#plop {
+        text-align: center;
+}
+#button-container {
+        margin-top: 50px;
+}  
+#button-container ul{
+        padding: 0;
+    }
+    
+#button-container li {
+        float: left;
+        width: 23%;
+        margin: 1%;
+        list-style-type: none; 
+}    
+#button-container li img {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 15px;
+}
+button {
+        text-align: center;
+        color: aqua;
+        background-color: black;
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 5%;
+}
+button:hover {
+        background-color: steelblue;
+        color: black;
+}
+    
+#button-container ul:after{
+        content: "";
+        display: block;
+        clear: both;
+}
+.frame {
+        background-image: url("the computer/mainframe3.jpg");
+       background-size: contain;
+       color: white;
+       height: 150px;
+       text-align: center;
+       font-size: 2rem;          
+}
+.frame1 {
+        background-image: url("the computer/d880x320.jpg");
+        height: 150px;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+}
+.frame2 {
+        background-image: url("the computer/mainframe2.jpg");
+        height: 150px;
+        color: white;
+        background-size: contain;
+        text-align: center;
+        font-size: 2rem;
+}
+.frame3 {
+        background-image: url("the computer/supercomp_1050x450.jpg");
+        height: 150px;
+        color: white;
+        background-size: cover;
+        text-align: center;
+        font-size: 2rem;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.frame4 {
+        background-image: url("the computer/mainframe1.jpg");
+        height: 350px;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+}
+.checkbox {
+        margin: 5% 25% 5% 48%;
+}
+iframe{
+        margin: 0 0 0 40%;
+}
+
+.shut {
+        margin-left: 25%;
+}
+.bat {
+        margin: 0 46%;        
+}
+.bat:hover {
+        background-color: black;
+        margin: 0 50% 0 45%;
+}  
+#body1 {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: grid;
+        grid-template: 25vh 50vh 25vh / repeat(3,1fr);
+        gap: 2px;
+}
+img {
+        max-width: 100%;
+        height: auto;
+}
+#header {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;    
+        grid-row: 1 / 2;
+        grid-column: 1 /-1;
+        background-image: url("the computer/2-1.jpg");    
+} 
+#main1 {
+        background-image: url( "the computer/2-1.jpg");
+        grid-row: 2 / 3;
+        grid-column: 2 /3;
+        text-align: center;
+}
+#main2 {
+        text-align: center;
+        grid-row: 2 / 3; 
+        grid-column: 3 / -1;
+        font-size: 1rem;
+        background-image: url( "the computer/2-1.jpg");
+}
+#main3 {
+        text-align: center;
+        grid-row: 2 / 3;
+        grid-column: 1 /2;
+        background-image: url("the computer/2-1.jpg");
+}
+#nav {
+        border: solid black;
+        grid-row: 3 / 4;
+        grid-column: 1 / -1;
+        background-image: url( "the computer/2-1.jpg");
+}
+textarea {
+        width: 200px;
+        height: 300px;
+}
+    
+
+
+
+/****************** media queries **************** */
+
+@media screen and (max-width: 768px) {
+#tarea li {
+        width: 46%;
+} 
+#button-container li {
+        width: 46%;
+}      
+}
+@media screen and (max-width:420px) {
+#tarea li{
+        width: 96%;
+} 
+#button-container li {
+        width: 96%;
+} 
+body {
+        background-color: blue;
+}     
+}
+@media screen and (min-width:320px){
+body{
+        background-color: skyblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1,1rem;                       
+} 
+iframe{
+        margin: 0;
+}     
+}
+@media screen and (min-width:768px){
+body{
+        background-color: rgb(41, 147, 233);
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size: 1rem;
+}
+iframe{
+        margin: 0 0 0 25%;
+}
+}
+@media screen and (min-width:1024px){
+body{
+        background-color:azure;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+} 
+iframe{
+        margin: 0 0 0 40%;
+}      
+}
+ 
+
+
+
+
+
